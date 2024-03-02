@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./contacts.css">
+    <title>Contact Us</title>
+</head>
+<body>
+    <section class="section">
+
+    </section>
+    <form class="content">
+        <h3>Enter Your Contact Details</h3>
+        <br>
+        <br>
+    <label>Name</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text">
+    <br>
+    <br>
+    <label>Mobile</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="number">
+    <br>
+    <br>
+    <label>Email</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="email">
+    <br>
+    <br>
+    <br>
+    <button  type="button" onclick="contact()">Submit</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <button type="button" onclick="next()">Home</button>
+    </form>
+    <script>
+        function contact(){
+        alert("Your Details Are Saved..!");
+        }
+        function next(){
+            window.location.href="index.html";
+        }
+    </script>
+</body>
+</html>
